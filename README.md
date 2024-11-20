@@ -29,4 +29,4 @@ A fun and interactive React.js game where you match related words, track attempt
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/<your-username>/word-matching-react.git
+   git clone https://github.com/pnayak770/wordMatchingReactJS.git
