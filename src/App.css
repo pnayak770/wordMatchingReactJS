@@ -1,0 +1,77 @@
+.app {
+  text-align: center;
+}
+
+.word-grid {
+  display: grid;
+  gap: 10px;
+  padding: 20px;
+}
+
+.word-item {
+  padding: 10px;
+  border: 1px solid #ccc;
+  background-color: white;
+  border-radius: 4px;
+  text-align: center;
+  cursor: pointer;
+  transition: opacity 0.3s ease, background-color 0.3s ease;
+}
+
+.word-item.matched {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.word-item.selected {
+  background-color: rgb(42, 248, 104);
+  color: white;
+}
+
+
+
+.config-panel div {
+  margin-bottom: 10px;
+}
+
+.controls {
+  margin-top: 20px;
+}
+
+.game-complete-msg {
+  font-size: 20px;
+  color: green;
+  font-weight: bold;
+}
+.settings-toggle {
+  background: #1e1e2f;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-size: 16px;
+}
+.game-complete-msg {
+  color: green;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+.completion-message {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #4CAF50; /* Green color */
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  font-size: 1.5rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+}
+
+.completion-message h2 {
+  margin: 0;
+}
