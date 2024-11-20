@@ -1,6 +1,7 @@
 .word-grid {
     display: grid;
     gap: 10px;
+    
   }
   
   .word {
@@ -11,20 +12,21 @@
     cursor: pointer;
     border-radius: 5px;
     transition: background-color 0.3s;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
   }
   
   .word:hover {
     background-color: #e0e0e0;
   }
   
-  .reset-button {
+  /* .reset-button {
     margin-top: 20px;
     padding: 10px 20px;
     background-color: #007bff;
     color: white;
     border: none;
     cursor: pointer;
-  }
+  } */
   
   .reset-button:hover {
     background-color: #0056b3;
@@ -40,6 +42,6 @@
   }
   
   .config-button:hover {
-    background-color: #218838;
+    background-color: #0056b3;
   }
   

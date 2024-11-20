@@ -7,7 +7,7 @@ const ConfigPanel = ({ groupSize, itemCount, columns, setGroupSize, setItemCount
       
       <h2>Config</h2>
       <div className="config-item">
-        <label>groupSize</label>
+        <label>GroupSize</label>
         <input
           type="range"
           min="2"
@@ -18,7 +18,7 @@ const ConfigPanel = ({ groupSize, itemCount, columns, setGroupSize, setItemCount
         <span>{groupSize}</span>
       </div>
       <div className="config-item">
-        <label>itemCount</label>
+        <label>ItemCount</label>
         <input
           type="range"
           min="1"
@@ -29,7 +29,7 @@ const ConfigPanel = ({ groupSize, itemCount, columns, setGroupSize, setItemCount
         <span>{itemCount}</span>
       </div>
       <div className="config-item">
-        <label>columns</label>
+        <label>Columns</label>
         <input
           type="range"
           min="1"

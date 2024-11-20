@@ -113,7 +113,7 @@ const App = () => {
     <div className="app">
       <header className="header">
         <h1>Word Connect</h1>
-        <p>Connect group of {groupSize} words by clicking on related words</p>
+        <p>Connect group of <span>{groupSize}</span> words by clicking on related words</p>
       </header>
       <button className="config-button" onClick={() => setShowConfig(!showConfig)}>
         {showConfig ? "Close Config" : "Open Config"}

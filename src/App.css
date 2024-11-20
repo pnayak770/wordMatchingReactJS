@@ -52,21 +52,21 @@
   cursor: pointer;
   font-size: 16px;
 }
-.game-complete-msg {
+/* .game-complete-msg {
   color: green;
   font-size: 18px;
   font-weight: bold;
   margin-top: 20px;
-}
+} */
 .completion-message {
+  border: 2ps solid black;
   position: fixed;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background-color: #4CAF50; /* Green color */
-  color: white;
+  /* color: rgb(14, 14, 14);  */
   padding: 20px;
-  border-radius: 10px;
+  border-radius: 10px ;
   font-size: 1.5rem;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   z-index: 1000;
@@ -75,3 +75,61 @@
 .completion-message h2 {
   margin: 0;
 }
+.config-button,.reset-button{
+
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  letter-spacing: 2px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #000;
+  cursor: pointer;
+  border: 3px solid;
+  padding: 0.25em 0.5em;
+  box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
+  position: relative;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  background-color: rgb(238, 244, 244);
+}
+
+.config-button:active {
+  box-shadow: 0px 0px 0px 0px;
+  top: 5px;
+  left: 5px;
+}
+p{
+  font-size: 1.3rem;
+}
+
+
+.header h1{
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+  color: #353741;
+  animation: fadeIn 3s ease-in-out;
+}
+.header span{
+  color: rgb(7, 101, 135);
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+
+
+
+
